@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "title": "Main title",
+    "text": "Main text for the first section."
+  },
+
+  "info": {
+    "title": "Information",
+    "text": "Information text will be here."
+  }
+}

@@ -1,0 +1,38 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 18px;
+
+  border: none;
+  border-radius: var(--radius-medium);
+
+  font: inherit;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition:
+    opacity 0.2s ease,
+    background 0.2s ease;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.button--primary {
+  background: var(--color-accent);
+  color: var(--color-text);
+}
+
+.button--secondary {
+  background: var(--color-surface);
+  color: var(--color-text);
+}
